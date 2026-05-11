@@ -14,7 +14,7 @@ export default function DataUpload({ onUploadSuccess }: DataUploadProps) {
   const [hasWatchedAd, setHasWatchedAd] = useState(false);
 
   // ---> EXACT LINE TO INSERT SMART LINK <---
-  const SMART_LINK = "#"; // Replace "#" with your smart link URL
+  const SMART_LINK = "https://www.profitablecpmratenetwork.com/eptfdgegw?key=9029ed441555986ae5243084e752e0d5"; // Replace "#" with your smart link URL
 
   const onDrop = useCallback(async (acceptedFiles: File[]) => {
 
